@@ -1,0 +1,84 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section*{Task 0: Integers Addition}%
+\label{sec:Task0IntegersAddition}%
+\begin{verbatim}%
+\newline%
+>>> add\_integer(2, 3)\newline%
+5\newline%
+%
+\end{verbatim}
+
+%
+\section*{Task 1: Divide a Matrix}%
+\label{sec:Task1DivideaMatrix}%
+\begin{verbatim}%
+\newline%
+>>> matrix\_divided({[}{[}1, 2, 3{]}, {[}4, 5, 6{]}{]}, 3)\newline%
+{[}{[}0.33, 0.67, 1.0{]}, {[}1.33, 1.67, 2.0{]}{]}\newline%
+%
+\end{verbatim}
+
+%
+\section*{Task 2: Say My Name}%
+\label{sec:Task2SayMyName}%
+\begin{verbatim}%
+\newline%
+>>> say\_my\_name("John", "Smith")\newline%
+My name is John Smith\newline%
+%
+\end{verbatim}
+
+%
+\section*{Task 3: Print Square}%
+\label{sec:Task3PrintSquare}%
+\begin{verbatim}%
+\newline%
+>>> print\_square(4)\newline%
+\#\#\#\#\newline%
+\#\#\#\#\newline%
+\#\#\#\#\newline%
+\#\#\#\#\newline%
+%
+\end{verbatim}
+
+%
+\section*{Task 4: Text Indentation}%
+\label{sec:Task4TextIndentation}%
+\begin{verbatim}%
+\newline%
+>>> text\_indentation("This is a sentence. This is another? And this is the last:")\newline%
+This is a sentence.\newline%
+This is another?\newline%
+And this is the last:\newline%
+%
+\end{verbatim}
+
+%
+\section*{Task 5: Max Integer {-} Unittest}%
+\label{sec:Task5MaxInteger{-}Unittest}%
+\begin{verbatim}%
+\newline%
+import unittest\newline%
+from 6{-}max\_integer import max\_integer\newline%
+\newline%
+class TestMaxInteger(unittest.TestCase):\newline%
+    def test\_max\_integer(self):\newline%
+        self.assertEqual(max\_integer({[}1, 2, 3, 4{]}), 4)\newline%
+\newline%
+if \_\_name\_\_ == '\_\_main\_\_':\newline%
+    unittest.main()\newline%
+%
+\end{verbatim}
+
+%
+\end{document}
